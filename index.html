@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+    <meta charset="utf-8">
+    <title>Atividade 9</title>
+    <meta name="author" content="Leandro Pacheco do Amaral::leandropacheco2500@gmail.com">
+    <meta name="description" content="Atividade 9 - WEB I">
+    <meta name="keywords" content="HTML, CSS, Flex-box, JQuery, Semântica">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	</head>
+    <body>
+        <header id="top">
+            <h1>The Outline</h1>
+        </header>
+        <nav id="menu">
+            <ul id="listamenu">
+                <a href="#top"><li>Home</li></a>
+                <a href="#info"><li>Info</li></a>
+                <a href="#albums"><li>Albums</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+                <h1>Home</h1>
+                <section id="bandhistory">
+                    <h2>History:</h2>
+                    <p>
+                        The Outline were an experimental band from Los Angeles, California, formed in 2002. The group's first release was The Outline Proudly Presents the Chestnut Tree, a self-recorded EP, in 2005. The band was signed by Fearless Records in the summer of 2006. The band then recorded their full-length album You Smash It, We'll Build Around It, released on July 11, 2006. During their career they toured with Panic! at the Disco, Saosin, Vedera, Forgive Durden, Envy on the Coast, and Polysics, among others. The band self-released their follow-up "Phantasmagoria" in August 2009, followed promptly by a four-song EP of Phantasmagoria remixes, courtesy of various artists including Superhumanoids. Their final project, the "Who You Love EP" released on June 30, 2010. The group has since disbanded.
+                    </p>
+                </section>
+                <figure id="musicvideo">
+                    <iframe width="90%" height="80%" src="https://www.youtube.com/embed/d-kVqxxlLOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+            </section>
+            <section id="info">
+                <h1>Info</h1>
+                <figure id="bandimg">
+                    <img src="img/img1.jpg">
+                </figure>
+                <section id="bandmembers">
+                    <h1>Band Members</h1>
+                    <ul id="bandmemberslist">
+                        <li id="infotitle">The Outline is:</li>
+                        <li>Graham Fink - Guitar, Lead vocals</li>
+                        <li>Austen Lee - Keyboards, Guitar, Saxophone</li>
+                        <li>Max St. John - Bass, Backing vocals</li>
+                    </ul>
+                </section>
+            </section>
+            <section id="albums">   
+                <h1>Albums</h1>      
+	            <figure id="albumgallery">
+                    <div id="wowslider-container0">
+                    <div class="ws_images"><ul>
+                        <li><img src="data0/images/album1.jpg" alt="You Smash It, We'll Build Around It (2006)" title="You Smash It, We'll Build Around It (2006)" id="wows0_0"/></li>
+                        <li><img src="data0/images/album2.jpg" alt="Phantasmagoria (2009)" title="Phantasmagoria (2009)" id="wows0_1"/></li>
+                        <li><img src="data0/images/album3.jpg" alt="Phantasmagoria: The Remixes Vol. 1 (2009)" title="Phantasmagoria: The Remixes Vol. 1 (2009)" id="wows0_2"/></li>
+                        <li><a href="http://wowslider.net"><img src="data0/images/album5.jpg" alt="html slideshow" title="B-Sides (c.2010)" id="wows0_3"/></a></li>
+                        <li><img src="data0/images/album4.jpg" alt="Who You Love (2010)" title="Who You Love (2010)" id="wows0_4"/></li>
+                    </ul></div>
+                    <div class="ws_bullets"><div>
+                        <a href="#" title="You Smash It, We'll Build Around It (2006)"><span><img src="data0/tooltips/album1.jpg" alt="You Smash It, We'll Build Around It (2006)"/>1</span></a>
+                        <a href="#" title="Phantasmagoria (2009)"><span><img src="data0/tooltips/album2.jpg" alt="Phantasmagoria (2009)"/>2</span></a>
+                        <a href="#" title="Phantasmagoria: The Remixes Vol. 1 (2009)"><span><img src="data0/tooltips/album3.jpg" alt="Phantasmagoria: The Remixes Vol. 1 (2009)"/>3</span></a>
+                        <a href="#" title="B-Sides (c.2010)"><span><img src="data0/tooltips/album5.jpg" alt="B-Sides (c.2010)"/>4</span></a>
+                        <a href="#" title="Who You Love (2010)"><span><img src="data0/tooltips/album4.jpg" alt="Who You Love (2010)"/>5</span></a>
+                    </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">slider jquery</a> by WOWSlider.com v9.0</div>
+                    <div class="ws_shadow"></div>
+                    </div>	
+                    <script type="text/javascript" src="engine0/wowslider.js"></script>
+                    <script type="text/javascript" src="engine0/script.js"></script>
+	            </figure>
+                <section  id="videoaudio">
+                    <h1>Video/Audio</h1>
+                    <video controls>
+                        <source src="video/speakintongues.mp4">
+                    </video>
+                    <audio controls>
+                        <source src="audio/aesthetics.mp3">
+                    </audio>
+                </section>
+            </section>
+            <section id="contact">
+                <h1>Contact</h1>
+                <section id="contactformarea">
+                    <h1>Contact Form</h1>
+                    <section  id="form1">
+                        <h2>Contact Us:</h2>
+                        <form action="#">
+                                <p>
+                                    <label for="name">Name: </label>
+                                    <input type="text" name="name" class="forminput" placeholder="Your Full Name" required>
+                                </p>
+                                <p>
+                                    <label for="email">E-mail: </label>
+                                    <input type="email" name="email" class="forminput" placeholder="Your E-mail Address" required>
+                                </p>
+                                <p>
+                                    <label for="message">Message: </label>
+                                    <input type="text" name="message" class="forminput" size="50" placeholder="Your Message" required>
+                                </p>
+                                <p>
+                                    <input type="submit" id="formsubmit" value="Send Message">
+                                </p>
+                        </form>
+                    </section>
+                    <section id="links">
+                        <h1>Links</h1>
+                        <a target="_blank" href="https://twitter.com/THEOUTLINE">
+                            <img src="img/twitter.png">
+                        </a>
+                        <a target="_blank" href="https://open.spotify.com/artist/6J3tqiKvsfoMWdmsccCjr8?si=y666MK0zTcapjeLupFsd3Q">
+                            <img src="img/spotify.png">
+                        </a>
+                        <a target="_blank" href="https://music.apple.com/us/artist/the-outline/158195962">
+                            <img src="img/applemusic.png">
+                        </a>
+                        <a target="_blank" href="https://theoutlinemusic.bandcamp.com">
+                            <img src="img/bandcamp.png">
+                        </a>
+                    </section>
+                </section>
+                <section id="map">
+                    <h1>Map</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.27405770525!2d-118.69192047471653!3d34.02016130653294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1616579352355!5m2!1spt-BR!2sbr" width="95%" height="95%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <h1>© 2021 Leandro Pacheco do Amaral</h1>
+        </footer>
+    </body>
+</html>
